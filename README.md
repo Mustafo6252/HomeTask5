@@ -59,15 +59,13 @@ Berilgan `id` bo‘yicha orderni o‘chiradi. Mavjud bo‘lmasa `404` qaytarilad
 
 📎 **Rasm:** 
 
-<img width="6000" height="900" alt="Screenshot 2025-07-24 at 10 16 27" src="https://github.com/user-attachments/assets/b3b1cf98-ddca-4c90-8c99-94ed14efaa8f" />
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 16 27" src="https://github.com/user-attachments/assets/b3b1cf98-ddca-4c90-8c99-94ed14efaa8f" />
 
 
 📌 **Eslatma:**  
 Barcha metodlar PostgreSQL bilan Dapper orqali ulanadi va `Restaurant_db` bazasidagi `orders` jadvali bilan ishlaydi.
 
-```csharp
-connectionString:
-"Host=localhost;Port=5432;Database=Restaurant_db;Username=postgres;Password=1111"
+
 
 
 # 📄 OrderDetailsController – REST API Hujjati
@@ -89,7 +87,8 @@ Yangi `OrderDetails` yozuvini quyidagi maydonlar bilan qo‘shadi:
 
 📎 **Rasm:**
 
-<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 45 23" src="https://github.com/user-attachments/assets/9d9e5b4e-f5f9-4b2a-8671-1b3b1f4a9af2" />
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 45 23" src="https://github.com/user-attachments/assets/4ca901a4-c742-47da-8fa9-5cf2545b0358" />
+
 
 
 ## 🟢 GET: Barcha OrderDetails'ni olish
@@ -139,9 +138,6 @@ Berilgan `id` bo‘yicha `OrderDetails` yozuvini o‘chiradi. Agar mavjud bo‘l
 📌 **Eslatma:**  
 Ushbu controller `Restaurant_db` nomli PostgreSQL bazasida joylashgan `OrderDetails` jadvali bilan ishlaydi.
 
-```csharp
-connectionString:
-"Host=localhost;Port=5432;Database=Restaurant_db;Username=postgres;Password=1111"
 
 
 # ➕ AddController – REST API Hujjati
@@ -167,6 +163,4 @@ Bu yerda:
 📌 **Ma’lumot:**  
 Ushbu controller `Restaurant_db` nomli PostgreSQL bazasi bilan ishlaydi.
 
-```csharp
-connectionString:
-"Host=localhost;Port=5432;Database=Restaurant_db;Username=postgres;Password=1111"
+
