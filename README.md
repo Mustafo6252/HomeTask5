@@ -12,9 +12,10 @@ Ushbu controller `orders` jadvali bilan ishlovchi REST API funksiyalarini o‘z 
 **📝 Sharti:**  
 Yangi `order` yozuvini jadvalga qo‘shadi (`id`, `created_at`, `customer_name`, `employee_name` maydonlari bilan).
 
-📎 **Rasm:** _Post qilishdan keyingi natija yoki Postman/Swagger orqali yuborilgan ma’lumot rasm holatida shu yerga joylanadi._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 13 21" src="https://github.com/user-attachments/assets/ad069782-a6c0-463d-a600-130d4c1aa47c" />
+
 
 ## 🟢 GET: Barcha orderlarni olish
 
@@ -22,9 +23,10 @@ Yangi `order` yozuvini jadvalga qo‘shadi (`id`, `created_at`, `customer_name`,
 **📝 Sharti:**  
 Barcha buyurtmalar (orders) ro‘yxatini qaytaradi.
 
-📎 **Rasm:** _Barcha orderlar ro‘yxati ko‘rsatilgan holat._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 13 37" src="https://github.com/user-attachments/assets/c28a2b9f-ef0f-4e59-82c3-57d55ba04c9b" />
+
 
 ## 🟡 GET: Orderni ID bo‘yicha olish
 
@@ -32,9 +34,10 @@ Barcha buyurtmalar (orders) ro‘yxatini qaytaradi.
 **📝 Sharti:**  
 Berilgan `id` bo‘yicha bitta orderni qaytaradi. Agar mavjud bo‘lmasa, `404 Not Found` javobi qaytariladi.
 
-📎 **Rasm:** _ID orqali qidirilgan natijani ko‘rsatuvchi rasm joylash uchun._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 14 01" src="https://github.com/user-attachments/assets/f1785773-2e95-42c2-9d32-cd76d4003bc5" />
+
 
 ## 🟠 PUT: Orderni tahrirlash
 
@@ -43,9 +46,10 @@ Berilgan `id` bo‘yicha bitta orderni qaytaradi. Agar mavjud bo‘lmasa, `404 N
 Mavjud bo‘lgan orderni yangilaydi (`created_at`, `customer_name`, `employee_name` qiymatlari bilan).  
 Agar `id` mavjud bo‘lmasa, `404 Not Found` qaytadi.
 
-📎 **Rasm:** _Update (PUT) dan keyingi muvaffaqiyatli javob rasm holatida._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 16 02" src="https://github.com/user-attachments/assets/48648dbf-af5f-41f7-b14e-b53a1f28a6df" />
+
 
 ## 🔴 DELETE: Orderni o‘chirish
 
@@ -53,9 +57,10 @@ Agar `id` mavjud bo‘lmasa, `404 Not Found` qaytadi.
 **📝 Sharti:**  
 Berilgan `id` bo‘yicha orderni o‘chiradi. Mavjud bo‘lmasa `404` qaytariladi, bo‘lsa `"Order deleted successfully"` degan xabar qaytariladi.
 
-📎 **Rasm:** _Delete qilish natijasi yoki Postman/Swagger javobi rasm holatida._
+📎 **Rasm:** 
 
----
+<img width="6000" height="900" alt="Screenshot 2025-07-24 at 10 16 27" src="https://github.com/user-attachments/assets/b3b1cf98-ddca-4c90-8c99-94ed14efaa8f" />
+
 
 📌 **Eslatma:**  
 Barcha metodlar PostgreSQL bilan Dapper orqali ulanadi va `Restaurant_db` bazasidagi `orders` jadvali bilan ishlaydi.
@@ -82,9 +87,10 @@ Yangi `OrderDetails` yozuvini quyidagi maydonlar bilan qo‘shadi:
 - `unit_price`  
 - `quantity`
 
-📎 **Rasm:** _Post qilingan ma’lumotning natijasi ko‘rsatilgan rasm joylashtiriladi._
+📎 **Rasm:**
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 45 23" src="https://github.com/user-attachments/assets/9d9e5b4e-f5f9-4b2a-8671-1b3b1f4a9af2" />
+
 
 ## 🟢 GET: Barcha OrderDetails'ni olish
 
@@ -92,9 +98,10 @@ Yangi `OrderDetails` yozuvini quyidagi maydonlar bilan qo‘shadi:
 **📝 Sharti:**  
 Jadvaldagi barcha `OrderDetails` yozuvlarini ro‘yxat shaklida qaytaradi.
 
-📎 **Rasm:** _Barcha order tafsilotlarini ko‘rsatgan rasm joylashtiriladi._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 45 34" src="https://github.com/user-attachments/assets/6be3ca40-0d46-4b69-af9c-54cf7260f173" />
+
 
 ## 🟡 GET: OrderDetails'ni ID bo‘yicha olish
 
@@ -102,9 +109,9 @@ Jadvaldagi barcha `OrderDetails` yozuvlarini ro‘yxat shaklida qaytaradi.
 **📝 Sharti:**  
 Berilgan `id` bo‘yicha bitta `OrderDetails` yozuvini qaytaradi. Agar mavjud bo‘lmasa `404` qaytaradi.
 
-📎 **Rasm:** _ID bo‘yicha qidiruv natijasi rasm holatida shu yerga qo‘yiladi._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 45 54" src="https://github.com/user-attachments/assets/acccb699-95b4-40bc-8c5f-2a99f65cc52b" />
 
 ## 🟠 PUT: OrderDetails'ni yangilash
 
@@ -113,9 +120,10 @@ Berilgan `id` bo‘yicha bitta `OrderDetails` yozuvini qaytaradi. Agar mavjud bo
 Mavjud `OrderDetails` yozuvini yangilaydi (`order_id`, `product_name`, `unit_price`, `quantity` bilan).  
 Agar `id` mavjud bo‘lmasa `404` qaytadi.
 
-📎 **Rasm:** _Update qilish natijasi rasm holatida qo‘yiladi._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 46 49" src="https://github.com/user-attachments/assets/ef95c4ae-fae8-4a92-9b18-33a46e81219d" />
+
 
 ## 🔴 DELETE: OrderDetails'ni o‘chirish
 
@@ -123,9 +131,10 @@ Agar `id` mavjud bo‘lmasa `404` qaytadi.
 **📝 Sharti:**  
 Berilgan `id` bo‘yicha `OrderDetails` yozuvini o‘chiradi. Agar mavjud bo‘lmasa `404`, bo‘lsa — muvaffaqiyatli o‘chirilgan yozuvni qaytaradi.
 
-📎 **Rasm:** _Delete javobi yoki holatidan olingan rasmni joylang._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 10 47 02" src="https://github.com/user-attachments/assets/ab2dab07-139f-4859-aada-948ccd0e3bc1" />
+
 
 📌 **Eslatma:**  
 Ushbu controller `Restaurant_db` nomli PostgreSQL bazasida joylashgan `OrderDetails` jadvali bilan ishlaydi.
@@ -150,9 +159,10 @@ Bu yerda:
 - Dastlab `OrderDetails` dan `order_id` olinadi
 - So‘ng `Orders` jadvalidan shu `id` bo‘yicha tegishli buyurtma (order) olinadi.
 
-📎 **Rasm:** _OrderDetails orqali Order topilgan natijani ko‘rsatuvchi rasm joylash uchun._
+📎 **Rasm:** 
 
----
+<img width="600" height="900" alt="Screenshot 2025-07-24 at 11 57 11" src="https://github.com/user-attachments/assets/89254d11-bc4a-4eab-9fbf-d24c45711c5a" />
+
 
 📌 **Ma’lumot:**  
 Ushbu controller `Restaurant_db` nomli PostgreSQL bazasi bilan ishlaydi.
